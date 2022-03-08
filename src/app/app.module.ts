@@ -7,6 +7,7 @@ import { HomeComponent } from './presentation/home/home.component';
 import { MarsRoverComponent } from './presentation/mars-rover/mars-rover.component';
 import { NearEarthObjectsComponent } from './presentation/near-earth-objects/near-earth-objects.component';
 import { NasaProjectsComponent } from './presentation/nasa-projects/nasa-projects.component';
+import { AuthComponent } from './presentation/auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NasaProjectsComponent } from './presentation/nasa-projects/nasa-project
     HomeComponent,
     MarsRoverComponent,
     NearEarthObjectsComponent,
-    NasaProjectsComponent
+    NasaProjectsComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
